@@ -1,0 +1,56 @@
+:root {
+	--c-primary: #421298;
+	--c-primary-1: #42129811;
+	--c-primary-2: #42129822;
+	--c-primary-3: #42129833;
+	--nav: transparent;
+	--nav-color: var(--c-primary);
+	font-family: sans-serif;
+}
+
+:root,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+nav {
+	height: unset;
+	padding: 0.5rem;
+}
+
+nav > div > a {
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+}
+
+main {
+	max-width: 70ch;
+	margin: 0 auto 3rem;
+	padding: 1rem;
+}
+
+footer {
+	background: var(--c-primary);
+}
+
+h2 {
+	margin-top: 2.5rem;
+}
+
+p,
+ol,
+ul {
+	line-height: 1.75;
+}
+
+.link-list {
+	gap: 0.5rem;
+}
+
+.link-list li a {
+	padding: 0.25rem;
+}

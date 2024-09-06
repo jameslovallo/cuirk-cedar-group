@@ -19,4 +19,8 @@ export default [
 			'Master of Science in Computer and Information Systems, University of Detroit Mercy',
 		img: '/src/images/cis.webp',
 	},
+	{
+		title: 'National Minority Supplier Development Council (NMSDC)',
+		img: '/src/images/nmsdc.webp',
+	},
 ]

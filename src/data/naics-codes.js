@@ -1,4 +1,6 @@
-export default [
+const url = 'https://www.naics.com/naics-code-description/?code='
+
+const data = [
 	{
 		icon: 'ClipboardAccount',
 		title: 541618,
@@ -39,3 +41,9 @@ export default [
 			'Household Appliances, Electric Housewares, Consumer Electronics Merchant',
 	},
 ]
+
+export default data.map((item) => {
+	item.href = url + item.title
+	item.target = '_blank'
+	return item
+})

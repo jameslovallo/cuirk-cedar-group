@@ -12,7 +12,10 @@ export const footer = () => html`
 			${grid({
 				children: loop(footerImages, ({ img, subtitle }) =>
 					card({
-						children: [html`<img src="${img}" />`, cardBody({ subtitle })],
+						children: [
+							html`<img src="${img}" alt="${subtitle}" />`,
+							cardBody({ subtitle }),
+						],
 					})
 				),
 			})}

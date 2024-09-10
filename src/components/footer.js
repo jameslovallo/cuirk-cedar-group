@@ -28,17 +28,16 @@ export const footer = () => html`
 
 footer.style = scss`
 	footer {
+		background: var(--c-primary-2);
 		position: sticky;
 		text-align: center;
 		top: 100vh;
 
 		.top {
-			background: #ddd;
-			padding: 1rem;
-
 			.grid {
 				margin: 0 auto;
 				max-width: 70ch;
+				padding: 1rem;
 
 				.card {
 					img {

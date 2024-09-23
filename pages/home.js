@@ -40,7 +40,7 @@ Anything technical you don’t want to do yourself, including “Night Watch Ser
 
 	@media (min-width: 1200px) {
 		p:has(img) {
-			margin: 0 -3rem 1rem;
+			margin: 0 -3rem 3rem;
 		}
 	}
 </style>

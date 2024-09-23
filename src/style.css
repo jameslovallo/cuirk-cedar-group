@@ -51,12 +51,14 @@ aside {
 
 @media (min-width: 900px) {
 	nav {
-		position: sticky;
+		position: fixed;
 		top: 0;
+		width: 100%;
 		z-index: 1;
 	}
 	.split {
 		display: flex;
+		margin-top: 3rem;
 	}
 	aside {
 		background: #f5f5f5;

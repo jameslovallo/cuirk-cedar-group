@@ -8,13 +8,13 @@ export default [
 	{
 		icon: 'Phone',
 		title: 'Phone',
-		description: '(313) 473-7093',
-		href: 'tel:3134737093',
+		description: '(313) 749-8990',
+		href: 'tel:3137498990',
 	},
 	{
 		icon: 'MapMarker',
 		title: 'Address',
-		description: '8405 Mack Avenue, Detroit, MI 48214',
-		href: 'https://maps.google.com/?q=8405 Mack Avenue, Detroit, MI 48214',
+		description: '7722 E. Jefferson Suite 203, Detroit, MI 48214',
+		href: 'https://maps.google.com/?q=7722 E. Jefferson Suite 203, Detroit, MI 48214',
 	},
 ]
